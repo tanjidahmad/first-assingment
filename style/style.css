@@ -9,6 +9,8 @@
     padding: 0;
     box-sizing: border-box;
  }
+ .btn:hover {
+  background-color: #dfe8e2;}
 .btn{
     background-color:#30B868 ;
     border: none;
@@ -21,7 +23,7 @@
 nav{
     width: 71%;
     max-width: 1140px;
-     border: 1px solid red; 
+     /* border: 1px solid red;  */
     margin: 0px auto;
     display: flex;
      justify-content: space-between; 
@@ -50,7 +52,7 @@ nav .menu a{
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   padding: 80px 20px;
   background: url("../assets/hero-bg.png")
   
@@ -70,16 +72,6 @@ nav .menu a{
   margin-bottom: 15px;
   border-radius: 7px;
  
-  /* background: #ffffff;
-  color: #30B868;
-   /* padding: 7px 500px;  */
-   /* padding: 7px;
-  border-radius: 999px;
-  font-size: 10px; */
-  /* font-weight: 183; */
-  /* margin-bottom: 20px;  */
-  /* text-align: center; */
-  
 
 }
 
@@ -134,14 +126,14 @@ nav .menu a{
     max-width: 827px;
      text-align: center; 
     margin:0 auto;
-    border:2px solid #F95555;
+    /* border:2px solid #F95555; */
     
 }
 .section-heading h2{
     font-size: 48px;
     margin-bottom: 20px;
     color: #001931;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     padding: 10px;
 }
 .section-heading p{
@@ -266,3 +258,95 @@ nav .menu a{
 body {
   background-color: #ffffff;
 }
+#about{
+    padding-top: 50px; 
+}
+ #about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 80px;
+    border-radius: 12px; 
+
+}
+ 
+ .footer {
+  background-color: #021a33; 
+}
+
+.footer-section {
+  padding: 100px 48px 30px;
+}
+
+
+.footer-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer-logo img {
+  width: 150px;
+}
+
+
+.footer-social {
+  text-align: right;
+}
+
+.footer-social span {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #021a33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+.footer-hr {
+  max-width: 1200px;
+  margin: 40px auto 18px;
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 13px;
+  color: #e5e7eb;
+}
+ .butt{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+     gap: 10px; 
+         padding: 15px;}
+          
+         .btn img{
+          text-align: center;
+         }

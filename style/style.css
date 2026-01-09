@@ -11,7 +11,7 @@
  }
  .btn:hover {
   background-color: #dfe8e2;}
-.btn{
+/* .btn{
     background-color:#30B868 ;
     border: none;
     padding: 13px 25px;
@@ -19,7 +19,37 @@
     font-size: 16px;
     color: white;
     cursor: pointer
-}
+} */
+ .btn{
+    background-color:#30B868;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+    display: inline-flex;      
+    align-items: center;       
+    gap: 8px; }
+    
+    .btn-spell{
+   background: rgba(54, 53, 53, 0.08);  
+  backdrop-filter: blur(6px);           
+    border: none;
+    padding: 13px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+    display: inline-flex;      
+    align-items: center;       
+    gap: 8px; 
+    }
+    .fa-circle-dot{
+  background-color: #30B868;
+  border-radius: 50%;}
 nav{
     width: 71%;
     max-width: 1140px;
@@ -272,8 +302,15 @@ body {
 
 }
  
- .footer {
+ /* .footer {
   background-color: #021a33; 
+} */
+ .footer {
+  background-color: #021a33;
+  width: 71%; 
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .footer-section {

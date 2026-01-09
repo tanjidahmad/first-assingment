@@ -96,6 +96,11 @@ nav .menu a{
  
 
 }
+#banner .banner-content .banner-badge p{
+  color: #30B868;
+  padding: 4px;
+}
+
 
 
 #banner .banner-content h1{
@@ -151,7 +156,7 @@ nav .menu a{
     
 }
 .section-heading h2{
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #001931;
    
@@ -160,7 +165,7 @@ nav .menu a{
 .section-heading p{
     font-size: 16px;
     margin-bottom: 5px;
-    color: #757575;
+    color: #627382;
     padding-bottom:  10px;
 }
 #skills{
@@ -214,7 +219,8 @@ nav .menu a{
     /* margin-bottom: 30px; */
  }
  .solution {
-  padding: 90px 0;
+  padding: 60px 0;
+  margin-left: 80px;
 }
 
 .solution-container {
@@ -292,6 +298,11 @@ body {
     border-radius: 12px; 
 
 }
+ .cta-note{
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 5px;
+} 
  
  
  .footer {

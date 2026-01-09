@@ -1,7 +1,7 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  /* background-color: #474747; */
+  
   
 }
  *{
@@ -11,15 +11,7 @@
  }
  .btn:hover {
   background-color: #dfe8e2;}
-/* .btn{
-    background-color:#30B868 ;
-    border: none;
-    padding: 13px 25px;
-    border-radius: 4px;
-    font-size: 16px;
-    color: white;
-    cursor: pointer
-} */
+
  .btn{
     background-color:#30B868;
     border: none;
@@ -53,7 +45,7 @@
 nav{
     width: 71%;
     max-width: 1140px;
-     /* border: 1px solid red;  */
+     
     margin: 0px auto;
     display: flex;
      justify-content: space-between; 
@@ -82,21 +74,21 @@ nav .menu a{
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* border: 3px solid purple; */
+  
   padding: 80px 20px;
   background: url("../assets/hero-bg.png")
   
 }
  .banner-badge{
 
-  /* display: inline-block; */
+  
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  /* border: 3px solid red; */
+ 
   padding: 7px 14px;
   background: #ffffff;
   margin-bottom: 15px;
@@ -107,13 +99,12 @@ nav .menu a{
 
 
 #banner .banner-content h1{
-    /* font-size: 40px;
-    margin-bottom: 25px; */
+   
     font-size: 56px;
   line-height: 1.15;
   font-weight: 800;
   margin-bottom: 20px;
-  /* border: 3px solid green; */
+ 
 
 }
 
@@ -139,7 +130,7 @@ nav .menu a{
     color: #ffffff;
 }
 .img-common{
-    /* border: 3px solid red; */
+    
     width: 30px;
     height: 30px;
     background-color: #F95555;
@@ -147,7 +138,7 @@ nav .menu a{
      display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size: 24px; */
+ 
 
 }
 
@@ -156,14 +147,14 @@ nav .menu a{
     max-width: 827px;
      text-align: center; 
     margin:0 auto;
-    /* border:2px solid #F95555; */
+   
     
 }
 .section-heading h2{
     font-size: 48px;
     margin-bottom: 20px;
     color: #001931;
-    /* border: 1px solid blueviolet; */
+   
     padding: 10px;
 }
 .section-heading p{
@@ -189,7 +180,7 @@ nav .menu a{
   }
   .skill-box .skill-card{
     padding: 30px 30px 0px 30px;
-    /* border: 1px solid rebeccapurple; */
+    
     box-shadow: 0 6px 50px 0 #00000027;
     max-width: 267px;
  }
@@ -302,9 +293,7 @@ body {
 
 }
  
- /* .footer {
-  background-color: #021a33; 
-} */
+ 
  .footer {
   background-color: #021a33;
    width: 1600px;
